@@ -1,2 +1,2 @@
 # salary_prediction_project
-This is for the DSDJ salary prediction project.
+This is for the DSDJ salary prediction project.  It is written in Python.
