@@ -7,4 +7,4 @@ This project includes the following:
 - [data folder]() with the 3 data files provided
 
 Here is a chart
-charts/bar_avg_salary_by_degree.jpg
+![](charts/bar_avg_salary_by_degree.jpg)
