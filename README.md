@@ -18,8 +18,8 @@ There were 3 files provided for this project: a list of jobs with different char
 
 ![Degree](charts/bar_avg_salary_by_degree.jpg)
 --------------
-![](bar_avg_salary_by_industry.jpg)
+![](charts/bar_avg_salary_by_industry.jpg)
 --------------
-![](bar_avg_salary_by_jobType.jpg)
+![](charts/bar_avg_salary_by_jobType.jpg)
 --------------
-![](bar_avg_salary_by_major.jpg)
+![](charts/bar_avg_salary_by_major.jpg)
