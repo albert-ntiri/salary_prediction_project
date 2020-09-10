@@ -5,3 +5,6 @@ This project includes the following:
 - [readme file](https://github.com/albert-ntiri/salary_prediction_project/blob/master/README.md)
 - [Jupyter Notebook](https://github.com/albert-ntiri/salary_prediction_project/blob/master/Salary%20Prediction%20Notebook.ipynb) where the code is located
 - [data folder]() with the 3 data files provided
+
+Here is a chart
+charts/bar_avg_salary_by_degree.jpg
