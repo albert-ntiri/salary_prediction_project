@@ -16,10 +16,7 @@ To predict the salaries of the provided jobs, I followed the following process:
 ## Data Summary
 There were 3 files provided for this project: a list of jobs with different characteristics, a list of salaries for those jobs, and a separate list of jobs to predict salaries for.  To understand the data, I merged the first 2 sets of data so I could explore the characteristics of the first set of jobs.  In this step, I looked at summary statistics on each characteristic and how each characteristic related to salary.  Here is what I found:
 
-![Degree](charts/bar_avg_salary_by_degree.jpg)
---------------
+![](charts/bar_avg_salary_by_degree.jpg)
 ![](charts/bar_avg_salary_by_industry.jpg)
---------------
 ![](charts/bar_avg_salary_by_jobType.jpg)
---------------
 ![](charts/bar_avg_salary_by_major.jpg)
