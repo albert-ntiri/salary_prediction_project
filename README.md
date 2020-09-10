@@ -30,3 +30,5 @@ For the numeric variables, I did a scatter plot with salary to see if there was 
 To see if the 2 numeric variables were independent, I did another scatter plot between them.
 
 ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg)
+
+Lastly, I used Seaborn's FacetGrid to compare the effects of the categorical variables.  That visual can be viewed [here]().
