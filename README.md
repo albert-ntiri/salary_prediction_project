@@ -19,3 +19,5 @@ There were 3 files provided for this project: a list of jobs with different char
 | ![](charts/bar_avg_salary_by_degree.jpg) | ![](charts/bar_avg_salary_by_industry.jpg) |
 |-------------|-----------|
 | ![](charts/bar_avg_salary_by_jobType.jpg) | ![](charts/bar_avg_salary_by_major.jpg) |
+|-------------|-----------|
+| ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg) | ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg) |
