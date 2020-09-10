@@ -29,4 +29,4 @@ For the numeric variables, I did a scatter plot with salary to see if there was 
 
 To see if the 2 numeric variables were independent, I did another scatter plot between them.
 
-![](charts/scatterplot_yearsExperience_salary.jpg)
+![](charts/scatterplot_yearsExperience_milesFromMetropolis_salary.jpg)
