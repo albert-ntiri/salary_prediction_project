@@ -32,3 +32,13 @@ To see if the 2 numeric variables were independent, I did another scatter plot b
 ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg)
 
 Lastly, I used Seaborn's FacetGrid to compare the effects of the categorical variables.  That visual can be viewed [here](charts/facetgrid_salarykde_by_industry_jobType_degree.jpg).
+
+## Model Results
+To find the best model, I took 2 main steps:
+1. Find the most optimal combination of features to include in the model.
+2. Determine which algorithm yields the best results based on the mean squared error.
+
+Here are the results of each step.
+
+![](charts/model_comparison_features.jpg)
+![](charts/model_comparison_algorithms.jpg)
