@@ -46,4 +46,4 @@ As shown, the best combinations of features are including all of them or includi
 
 ![](charts/model_comparison_algorithms.jpg)
 
-Based on those, the final model was the decision tree model with gradient boosting.  This is likely due to the interative technique of building on each previous model by only addressing the error.
+Based on those, the final model was the decision tree model with gradient boosting.  This is likely due to the iterative technique of building on each previous model by only addressing the error.
