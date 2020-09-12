@@ -47,3 +47,5 @@ As shown, the best combinations of features are including all of them or includi
 ![](charts/model_comparison_algorithms.jpg)
 
 Based on those, the final model was the decision tree model with gradient boosting.  This is likely due to the iterative technique of building on each previous model by only addressing the error.
+
+A commonly-used technique to achieve more accurate results for a model is cross validation.  When applying this technique, the results were very similar.  However, they significantly slowed down the performance.  As a result, the production model I chose does not include cross validation.
