@@ -41,4 +41,9 @@ To find the best model, I took 2 main steps:
 Here are the results of each step.
 
 ![](charts/model_comparison_features.jpg)
+
+As shown, the best combinations of features are including all of them or including all except the major indicator (whether there was a major).  I chose to include all features and did a second comparison with those same features for different algorithms.
+
 ![](charts/model_comparison_algorithms.jpg)
+
+Based on those, the final model was the decision tree model with gradient boosting.  This is likely due to the interative technique of building on each previous model by only addressing the error.
