@@ -6,7 +6,7 @@ To predict the salaries of the provided jobs, I followed the following process:
 1. Load the data
 2. Explore and clean the data
 3. Create features for the models
-4. Find the best combination of features and the machine learning algorithm that produced the best results based on a metric of mean squared error
+4. Find the best combination of features and the machine learning algorithm that produced the best results
 
 ## Files
 This project includes the following:
