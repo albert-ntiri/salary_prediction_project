@@ -45,7 +45,9 @@ Here are the results of each step.
 
 ![](charts/model_comparison_features.jpg)
 
-As shown, the best combinations of features are including all of them or including all except the major indicator (whether there was a major).  I chose to include all features and did a second comparison with those same features for different algorithms.  As far as the impact of individual features, the one with the most explanatory power for salary was the job level.  This is understandable because normally a salary is largely dependent on the responsibilities of the job and where it fits within the hierarchy of a company, which is what job level represents.  Each of the other features (major, degree, industry, years of experience, and miles from metropolis) still had an impact on the score of the model, however, which is why I included all of them.  If there was an issue of including too many features, the major indicator could have been used as a substitute for the major dummy variables, however, it did not have a major effect on the results.
+As shown, the best combinations of features are including all of them or including all except the major indicator (whether there was a major).  As far as the impact of individual features, the one with the most explanatory power for salary was the job level.  This is understandable because normally a salary is largely dependent on the responsibilities of the job and where it fits within the hierarchy of a company, which is what job level represents.  Each of the other features (major, degree, industry, years of experience, and miles from metropolis) still had an impact on the score of the model, however, which is why I included all of them.  If there was an issue of including too many features, the major indicator could have been used as a substitute for the major dummy variables, however, it did not have a major effect on the results.
+
+With all features determined as the best combination, I then did a second comparison with those features for different algorithms.
 
 ![](charts/model_comparison_algorithms.jpg)
 
