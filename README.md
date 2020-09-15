@@ -28,7 +28,7 @@ For the numeric variables, I did a scatter plot with salary to see if there was 
 | ![](charts/scatterplot_yearsExperience_salary.jpg) | ![](charts/scatterplot_milesFromMetropolis_salary.jpg) |
 |-------------|-----------|
 
-Based on this, there is a slight positive correlation between yearsExperience and salary, and a slight negative correlation between milesFromMetropolis and salary.  To see if the 2 numeric variables were independent, I did another scatter plot between them.  Note: independent variables should have a relatively low correlation to justify including both to explain variation in a dependent variable.
+Based on this, there is a slight positive correlation between yearsExperience and salary, and a slight negative correlation between milesFromMetropolis and salary.  To see if the 2 numeric variables were independent, I did another scatter plot between them.  Note: Independent variables should have a relatively low correlation to justify including both to explain variation in a dependent variable.  High correlation between independent variables indicates multicollinearity, which affects our ability to determine each variable's predictive power.
 
 ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg)
 
