@@ -23,7 +23,7 @@ The job descriptions consist of 5 categorical variables (companyId, degree, indu
 |-------------|-----------|
 | ![](charts/bar_avg_salary_by_jobType.jpg) | ![](charts/bar_avg_salary_by_major.jpg) |
 
-For the numeric variables, I did a scatter plot with salary to see if there was any noticeable correlation.  Because of the size of the dataset (1 million rows), I took a random sample to make the result more clear.
+For the numeric variables, I did a scatter plot with salary to see if there was any noticeable correlation.
 
 | ![](charts/scatterplot_yearsExperience_salary.jpg) | ![](charts/scatterplot_milesFromMetropolis_salary.jpg) |
 |-------------|-----------|
