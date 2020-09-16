@@ -32,6 +32,10 @@ Based on this, there is a slight positive correlation between yearsExperience an
 
 ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg)
 
+The following correlation matrix confirms what the scatter plots show.
+
+![](charts/correlation_matrix.csv)
+
 Since there is no correlation between yearsExperience and milesFromMetropolis, both can be included in a model without being redundant.
 
 Lastly, I used Seaborn's FacetGrid to compare the effects of the categorical variables.  That visual can be viewed [here](charts/facetgrid_salarykde_by_industry_jobType_degree.jpg).
