@@ -32,9 +32,7 @@ Based on this, there is a slight positive correlation between yearsExperience an
 
 ![](charts/scatterplot_yearsExperience_milesFromMetropolis.jpg)
 
-The following correlation matrix confirms what the scatter plots show.
-
-![](charts/correlation_matrix.csv)
+The following [correlation matrix](charts/correlation_matrix.csv) confirms what the scatter plots show.
 
 Since there is no correlation between yearsExperience and milesFromMetropolis, both can be included in a model without being redundant.
 
