@@ -17,6 +17,8 @@ This project includes the following:
 ## Data Summary
 There were 3 files provided for this project: a list of jobs with different characteristics, a list of salaries for those jobs, and a separate list of jobs to predict salaries for.  To understand the data, I merged the first 2 sets of data so I could explore the characteristics of the first set of jobs.  In this step, I looked at summary statistics on each characteristic and how each characteristic related to salary.
 
+The target variable in this dataset, salary, resembles a normal distribution.  The only outliers that stood out were jobs with 0 salaries.  Because this data is for jobs and not volunteer opportunities, I removed those values from the training dataset.  This only consisted of 5 out of 1 million rows.
+
 The job descriptions consist of 5 categorical variables (companyId, degree, industry, jobType, major) and 2 numeric variables (yearsExperience, milesFromMetropolis).  Each company in the data set had a similar profile, so I focused on the other 4 categorical variables.  To compare these variables to salary, I grouped by each variable and plotted the average salary for each value in a bar graph.  Here are the results:
 
 | ![](charts/bar_avg_salary_by_degree.jpg) | ![](charts/bar_avg_salary_by_industry.jpg) |
