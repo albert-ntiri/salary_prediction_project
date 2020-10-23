@@ -34,7 +34,7 @@ Based on this, there is a slight positive correlation between yearsExperience an
 
 The following [correlation matrix](charts/correlation_matrix.csv) confirms what the scatter plots show.
 
-Since there is no correlation between yearsExperience and milesFromMetropolis, both can be included in a model without being redundant.
+Since there was no correlation between yearsExperience and milesFromMetropolis, both could be included in a model without being redundant.  Also, both yearsExperience and milesFromMetropolis showed a roughly uniform distribution.  As a result, outliers were skewing either distribution.
 
 Lastly, I used Seaborn's FacetGrid to compare the effects of the categorical variables.  That visual can be viewed [here](charts/facetgrid_salarykde_by_industry_jobType_degree.jpg).
 
@@ -55,4 +55,8 @@ With all features determined as the best combination, I then did a second compar
 
 Based on those, the final model was the decision tree model with gradient boosting.  This is likely due to the iterative technique of building on each previous model by only addressing the error.
 
-A commonly-used technique to achieve more accurate results for a model is cross validation.  When applying this technique, the results were very similar.  However, they significantly slowed down the performance.  As a result, the production model I chose does not include cross validation.
+To ensure there is not a problem with overfitting or imbalance between the training and test data sets, I applied cross validation to see how much the results changed.  This is a commonly-used technique to achieve more accurate results for a model.
+
+![](charts/cv_comparison.jpg)
+
+As shown, the results were very similar.  However, cross validating significantly slowed down the performance.  As a result, the production model I chose does not include cross validation.
