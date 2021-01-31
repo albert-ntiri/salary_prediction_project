@@ -36,7 +36,7 @@ Based on this, there is a slight positive correlation between yearsExperience an
 
 The following [correlation matrix](charts/correlation_matrix.csv) confirms what the scatter plots show.
 
-Since there was no correlation between yearsExperience and milesFromMetropolis, both could be included in a model without being redundant.  Also, both yearsExperience and milesFromMetropolis showed a roughly uniform distribution.  As a result, outliers were skewing either distribution.
+Since there was no correlation between yearsExperience and milesFromMetropolis, both could be included in a model without being redundant.  Also, both yearsExperience and milesFromMetropolis showed a roughly uniform distribution.  As a result, neither distribution was skewed.
 
 Lastly, I used Seaborn's FacetGrid to compare the effects of the categorical variables.  That visual can be viewed [here](charts/facetgrid_salarykde_by_industry_jobType_degree.jpg).
 
